@@ -4,7 +4,7 @@ class Application
   
   def call(env)
     # I now know that the time that the tests pass to this method is Time.now
-    # if Time.now < noon, resp.write "Good Morning", else "Good AFternoon!"
+    # if Time.now < noon, resp.write "Good Morning", else "Good Afternoon!"
     # I could also write: if Time.now.strftime("%H:%M:%S") < "12:00:00"
     # See https://ruby-doc.org/core-2.2.0/Time.html#method-i-strftime
     
