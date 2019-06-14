@@ -10,7 +10,7 @@ class Application
     
     resp = Rack::Response.new
     
-    resp.write "#{Time.new.utc?}"
+    #resp.write "#{Time.new.utc?}"
     
     if Time.now.localtime.hour < 12 # Use <, not <=, or "12:30:00".hour will output "Good Morning!"
       resp.write "Good Morning!"
